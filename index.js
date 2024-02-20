@@ -3,6 +3,10 @@ import { getAddressFromPrivateArgent, getAddressFromPrivateBravos } from './util
 import ERC20_ABI from './abis/StarknetErc20Abi.json' assert {type: "json"};
 import chalk from 'chalk';
 import fs from 'fs'
+import * as dotenv from "dotenv";
+dotenv.config();
+
+
 
 const batchCollectEth = async (acc, recip, provider) => {
     const { address, priv } = acc;
