@@ -1,0 +1,20 @@
+{
+  "name": "starknet-claim",
+  "version": "1.0.0",
+  "description": "auto $STARK claim and ETH transfer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "author": "haisha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.4",
+    "ethers": "5.7",
+    "keccak256": "^1.0.6",
+    "starknet": "^6.0.0"
+  },
+  "type": "module"
+}
